@@ -22,3 +22,7 @@ Você precisa ter o [Python](https://www.python.org/downloads/) instalado no seu
 
 ```bash
 python calculadora.py
+
+## 🚧 Próximos Passos
+
+- [ ] Desenvolver uma versão desta calculadora com Interface Gráfica (GUI) para aplicar novos conceitos visuais e de eventos.
