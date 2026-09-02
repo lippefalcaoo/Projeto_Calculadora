@@ -14,37 +14,37 @@ while True:
 
     elif opcao == 1:   
         print(f'\n\t----SOMA----')
-        num1 = int(input('\ndigite o primeiro número: '))
-        num2 = int(input('digite o segundo número: '))
+        num1 = float(input('\ndigite o primeiro número: '))
+        num2 = float(input('digite o segundo número: '))
         resultado = num1 + num2
         print(f'\n{num1} + {num2} = {resultado}')
         print(f'\nRESULTADO: {resultado:.2f}')
 
     elif opcao == 2:
         print(f'\n\t----SUBTRAÇÃO----')
-        num1 = int(input('\ndigite o primeiro número: '))
-        num2 = int(input('digite o segundo número: '))
+        num1 = float(input('\ndigite o primeiro número: '))
+        num2 = float(input('digite o segundo número: '))
         resultado = num1 - num2
         print(f'\n{num1} - {num2} = {resultado}')
         print(f'\nRESULTADO: {resultado:.2f}')
 
     elif opcao == 3:
         print(f'\n\t----MULTIPLICAÇÃO----')
-        num1 = int(input('\ndigite o primeiro número: '))
-        num2 = int(input('digite o segundo número: '))
+        num1 = float(input('\ndigite o primeiro número: '))
+        num2 = float(input('digite o segundo número: '))
         resultado = num1 * num2
-        print(f'\n{num1} * {num2} = {resultado}')
+        print(f'\n{num1} x {num2} = {resultado}')
         print(f'\nRESULTADO: {resultado:.2f}')
 
     elif opcao == 4:
         print(f'\n\t----DIVISÃO----')
-        num1 = int(input('\ndigite o primeiro número: '))
-        num2 = int(input('digite o segundo número: '))
+        num1 = float(input('\ndigite o primeiro número: '))
+        num2 = float(input('digite o segundo número: '))
         if num2 == 0:
             print(f'\nNão é possível dividir por zero!')
         else:
             resultado = num1 / num2
-            print(f'\n{num1} / {num2} = {resultado}')
+            print(f'\n{num1} ÷ {num2} = {resultado}')
             print(f'\nRESULTADO: {resultado:.2f}')
 
     else:
